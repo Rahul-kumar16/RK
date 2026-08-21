@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>143 Heart Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Initial Center Screen Overlay -->
+  <div id="start-screen">
+    <button id="click-me-btn">
+      <span class="heart-icon">💖</span>
+      <span class="btn-text">Click Me</span>
+    </button>
+  </div>
+
+  <!-- Main Animation Container -->
+  <div id="ui-container" class="hidden">
+    <div id="heart-wrapper">
+      <div id="heart">
+        <div class="center-text">Always & Forever</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio Element -->
+  <audio id="bg-music" loop preload="auto">
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
